@@ -18,10 +18,11 @@
       methods: {
         addTodo(){
           this.todoList.push(this.todoText)
+          this.todoText = ""
         },
         deleteTodo(){
-          this.todoList.del(this.todoText)
-        }
+          this.todoList.pop(this.todoText)
+        },
       },
     }
     </script>
