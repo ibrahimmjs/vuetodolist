@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+  font-family: 'Quicksand', sans-serif;
+}
+
+body{
+  background-color: #262831;
+  text-align: center;
+}
+
+#todoText{
+  width: 40%;
+  height: 10%;
+  font-size: 25px;
+}
+
+#addBtn{
+  margin: 0.2%; 
+  margin-top: 1.5%;
+  width: 3%;
+  height: 10%;
+  font-size: 23px;
+  background-color: #02edae;
+}
+
+#deleteBtn{
+  width: 3%;
+  height: 10%;
+  font-size: 23px;
+  background-color: #02edae;
+}
+
+li{
+  margin-top: 0.2%;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.lineThrough{
+  text-decoration: line-through;
+  text-decoration-color: #ff0000;
+}
